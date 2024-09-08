@@ -1,5 +1,6 @@
 #include <Adafruit_SoftServo.h>  // SoftwareServo (works on non PWM pins)
 // Source: https://www.instructables.com/Continuous-Rotation-Servo-Arduino-UNO-a-Tutorial/
+// Notes: https://makezine.com/projects/control-a-servo-motor-without-programming 
 
 // Pin allocation
 #define SERVOPIN 8           // Servo control line on digital pin 8, 5V
@@ -29,7 +30,7 @@ void loop()  {
 
   //sensorTest();
   //servoTest();
-  fullTest();
+  //fullTest();
 
   delay(500);                    
 }
