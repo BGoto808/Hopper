@@ -41,7 +41,7 @@ void loop()  {
   //servoTest();
   fullTest();
 
-  delay(18);                    
+  delay(20);                    
 }
 
 // Sensor blink test, if sensor detects something the LED will blink
